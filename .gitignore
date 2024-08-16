@@ -24,3 +24,6 @@ package-lock.json
 !.vscode/tasks.json
 
 # Misc
+
+# post 模版
+_posts/template.md
