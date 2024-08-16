@@ -242,6 +242,19 @@ github 的工作流有点问题。我们还是选择：
 
 https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites
 
+### 8. action 错误问题
+
+.github/workflows/pages-deploy.yml
+
+```yaml
+# - name: Test site
+#   run: |
+#     bundle exec htmlproofer _site \
+#       \-\-disable-external \
+#       \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+```
+
+
 其他参考：
 
 https://linhandev.github.io/posts/Github-Page/
