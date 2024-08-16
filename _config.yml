@@ -111,10 +111,10 @@ comments:
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+  # utterances 评论系统 › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: # <Github 用户名>/<仓库名>
+    issue_term: # < 链接 | 路径 | 标题 | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
