@@ -1,5 +1,5 @@
 ---
-title: chirpy + github 博客搭建（ubuntu20.04）
+title: chirpy github 博客搭建-ubuntu20.04
 author: cotes
 date: 2024-08-16 11:50:00 +0800
 categories: [博客]
