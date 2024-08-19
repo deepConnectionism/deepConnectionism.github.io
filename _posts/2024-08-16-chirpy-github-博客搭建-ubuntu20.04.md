@@ -254,6 +254,9 @@ https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/trou
 #       \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 ```
 
+### 9. 怎么更新博客文档的名字呢？
+
+修改 markdown 上面的 title 名字即可。而不是修改这个 markdown 的文件的名字。
 
 其他参考：
 
@@ -270,3 +273,5 @@ https://github.com/NichtsHsu/nichtshsu.github.io?tab=readme-ov-file
 https://www.showapi.com/news/article/66b729e74ddd79f11a08deb2
 
 https://zjpzhao.github.io/posts/jekyll-githubpages/#%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87%E5%B7%A5%E5%85%B7-vscode%E6%8F%92%E4%BB%B6paste-image
+
+https://www.xuhao.blog/posts/%E6%A8%A1%E6%9D%BF%E9%94%99%E8%AF%AF%E4%BF%AE%E6%AD%A3%E6%97%A5%E5%BF%97/#%E5%8E%9F%E5%9B%A0
