@@ -64,43 +64,12 @@
 
 <script src="{{ script | relative_url }}"></script>
 
-
 {% if page.math %}
   <!-- MathJax -->
   <script src="{{ '/assets/js/data/mathjax.js' | relative_url }}"></script>
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="{{ site.data.origin[type].mathjax.js | relative_url }}"></script>
 {% endif %}
-
-
-<!--
-{% if page.math %}
-  <!-- MathJax -->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
-      },
-      TeX: {
-        equationNumbers: {
-          autoNumber: "AMS"
-        }
-      }
-    });
-  </script>
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML">
-  </script>
-{% endif %}
--->
-
-<!--
-{% if page.math %}
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{% endif %}
--->
 
 <!-- Pageviews -->
 {% if page.layout == 'post' %}
@@ -129,7 +98,7 @@
   <!-- Web Analytics -->
   {% for analytics in site.analytics %}
     {% capture str %}{{ analytics }}{% endcapture %}
-    {% assign type = str | split: '{' | first %}
+    {% assign type = str | split: '{' | first %}}
     {% if site.analytics[type].id and site.analytics[type].id != empty %}
       {% include analytics/{{ type }}.html %}
     {% endif %}
