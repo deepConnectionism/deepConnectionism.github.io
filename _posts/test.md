@@ -1,7 +1,7 @@
 ---
-title: LET-NET 中英对照
+title: test
 author: yzhu
-date: 2024-09-22 21:10:00 +0800
+date: 2024-09-13 21:10:00 +0800
 categories: [论文阅读]
 tags: [特征检测]
 render_with_liquid: false
